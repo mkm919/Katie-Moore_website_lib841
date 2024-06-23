@@ -1,0 +1,4 @@
+td {text-align:left;}
+th {text-align:left;text-decoration:underline;}
+tr:nth-child(even) {
+  background-color: #6E260E;

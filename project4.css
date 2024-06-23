@@ -1,0 +1,45 @@
+
+body{background-color:#6F4E37; color:#D2B48C ;font-family: georgia; font-size:16px; line-height:1.6;}
+h1{color:#EADDCA;text-decoration:underline;}
+h2{color:#EADDCA;text-decoration:underline;}
+
+nav {
+    background-color: #D2B48C;
+}
+nav table {
+    width: 100%;
+    border-collapse: collapse;
+}
+nav td {
+    width: 15%; /* Ensure each cell takes an equal share of the table width */
+    text-align: center;
+    padding: 14px 0; /* Adjust padding to make clickable area larger */
+}
+nav a {
+    display: block;
+    color: #654321;
+    text-decoration: underline;
+    padding: 14px 16px;
+}
+nav a:hover {
+    background-color: #C19A6B;
+}
+<style>
+  .container {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+  }
+
+  .text {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 0%;
+    float: right;
+}
